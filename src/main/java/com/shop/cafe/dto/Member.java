@@ -3,10 +3,8 @@ package com.shop.cafe.dto;
 import java.util.Date;
 
 public class Member {
-	
 	private String email, pwd, nickname;
 	private Date registDate;
-	
 	public String getEmail() {
 		return email;
 	}
@@ -47,4 +45,6 @@ public class Member {
 		return "Member [email=" + email + ", pwd=" + pwd + ", nickname=" + nickname + ", registDate=" + registDate
 				+ "]";
 	}
+	
+	
 }
